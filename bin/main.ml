@@ -1,9 +1,9 @@
-open Cfg ;;
-open Basics ;;
+open CFGAnalyzer.Cfg ;;
+open CFGAnalyzer.Basics ;;
 open Arg ;;
-open Problems ;;
-open Engine ;;
-open Coding ;;
+open CFGAnalyzer.Problems ;;
+open CFGAnalyzer.Engine ;;
+open CFGAnalyzer.Coding ;;
 
 let problem = ref (None)
 let cfgs = ref []
